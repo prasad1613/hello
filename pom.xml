@@ -222,13 +222,23 @@
     <name>first-ui</name>
     <url>192.168.43.116:8081/repository/</url>
   </repository>
+            <!--<repository>
+    <id>releases</id>
+    <name>first-ui</name>
+    <url>http://192.168.43.208:8081/repository/releases/</url>
+  </repository>-->
 
   <!-- use the following if you ARE using a snapshot version. -->
   <snapshotRepository>
     <id>nexus</id>
     <name>Snapshot</name>
-    <url>192.168.43.116:8081/repository/snapshots</url>
+    <url>http://192.168.43.208:8081/repository/releases/</url>
   </snapshotRepository>
+         <!--   <snapshotRepository>
+    <id>nexus</id>
+    <name>Snapshot</name>
+    <url>192.168.43.116:8081/repository/snapshots</url>
+  </snapshotRepository>-->
 </distributionManagement>
 
 
