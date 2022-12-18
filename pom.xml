@@ -218,7 +218,7 @@
   </prerequisites>
         
  <distributionManagement>
-  <repository>
+  <!--<repository>
     <id>siva.hari</id>
     <name>releases</name>
     <url>192.168.43.116:8081/repository/releases</url>
@@ -230,7 +230,7 @@
     <name>Snapshot</name>
     <url>http://192.168.43.208:8081/repository/releases/</url>
   </snapshotRepository>
-        
+      -->  
 </distributionManagement>
 
 
